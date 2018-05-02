@@ -55,6 +55,8 @@ interface UsuarioTres {
     nombre: string;
     casado?: boolean;
     edad: number;
-    imprimir(saludo: string):string;
-}
+    imprimir: function (saludo?: string){
+        return '';
+};
+
 console.log(carla);

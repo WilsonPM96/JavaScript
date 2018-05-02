@@ -51,4 +51,8 @@ var carla = {
     nombre: 'WilSon',
     edad: 21
 };
+{
+    return '';
+}
+;
 console.log(carla);
